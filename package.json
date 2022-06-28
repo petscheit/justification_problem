@@ -1,0 +1,11 @@
+{
+  "name": "justification_issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/petscheit/justification_problem.git",
+  "author": "petscheit <etscheitp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/api": "^8.10.1"
+  }
+}
