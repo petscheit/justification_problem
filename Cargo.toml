@@ -1,0 +1,18 @@
+[package]
+name = "decode_justification"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+codec = { package = "parity-scale-codec", version = "3.1.5", features = ["derive"] }
+finality-grandpa = { version = "0.16.0", features = ["derive-codec"] }
+scale-info = { version = "2.1.1", default-features = true}
+
+frame-support = { default-features = true, git = "https://github.com/paritytech/substrate.git", branch = 'master' }
+sp-finality-grandpa = { git = "https://github.com/paritytech/substrate.git", branch = 'master' }
+sp-std = { git = "https://github.com/paritytech/substrate.git", branch = 'master' }
+sp-runtime = { git = "https://github.com/paritytech/substrate.git", branch = 'master' }
+sp-core = { git = "https://github.com/paritytech/substrate.git", branch = 'master' }
+hex-literal = "0.3.4"
